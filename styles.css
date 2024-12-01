@@ -1,0 +1,1204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #221936; */
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+#header{
+    height: 150px;
+    background-color: #191227;
+}
+
+#logo{
+    width:10%;
+	height:100px;
+	margin-right:10px;
+	float:left;
+}    
+
+#logo img {
+    width: 100%;
+    height: 150px;
+    margin-left: 150px;
+}
+
+#nav {
+    width: 50%;
+    float: left;
+    margin-left: 150px;
+}
+
+#nav ul li{
+    display: inline;
+    margin-top: 10px;
+    font-size:15px;
+	margin-left:70px;
+	text-transform:uppercase;	
+}
+
+#nav ul {
+	margin-top:60px;
+    color: #fff;
+}
+
+#nav ul li{
+	padding-bottom:15px;
+	width:15%;
+}
+#nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#nav-social{
+    height: 50px;
+    font-size: 30px;
+    padding-right: 150px;
+    margin-left: 100px;
+}
+
+#nav-social i{
+    padding-left: 50px;
+    margin-top: 55px;
+}
+
+#nav-social a{
+    text-decoration: none;
+    color: #8c52ff;
+}
+#main{
+    height: 430px;
+}
+#photo{
+    height: 430px;
+    background-image: url("images/igraonica_noblur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: transparent;
+    opacity: 50%;
+}
+
+#black-bar{
+    position: relative;
+    text-align: center;
+}
+
+#name{
+   position:absolute;
+   top: 130px;
+   left: 580px;
+   color: #191227;
+}
+#name h1{
+    font-size: 80px;
+}
+
+#nzxt{
+    position:absolute;
+    top: 345px;
+    left: 650px;
+    width: 10%;
+    height: 12%;
+}
+#rog{
+    position:absolute;
+    top: 280px;
+    left: 865px;
+    width: 11%;
+    height: 40%;
+}
+#coolermaster{
+    position:absolute;
+    top: 313px;
+    left: 1100px;
+    width: 8%;
+    height: 25%;
+}
+
+#main2{
+    position: relative;
+    background-color: #221936;
+    height:550px;
+}
+
+#main2 h2{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+
+}
+#crown{
+    position: absolute;
+    color: #8c52ff;
+    font-size: 30px;
+    top: 64px;
+    left: 800px;
+}
+
+#equipment{
+    height: 500px;
+    width: 1400px;
+    margin-left: 160px;
+    margin-right: 100px;
+    
+}
+
+#equipment-top{
+    
+    height: 170px;
+    width: 1600px;
+}
+#equipment-bottom{
+    
+    height: 170px;
+    width: 1600px;
+}
+.equipment-logo{
+    position: relative;
+    font-size: 50px;
+    color: #8c52ff;
+}
+#GPU i{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+#CPU i{
+    position: absolute;
+    top: 50px;
+    left: 410px;
+}
+#RAM i{
+    position: absolute;
+    top: 50px;
+    left: 780px;
+}
+#Display i{
+    position: absolute;
+    top: 50px;
+    left: 1190px;
+}
+#Keyboard i{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+#Mouse i{
+    position: absolute;
+    top: 50px;
+    left: 410px;
+}
+#Headset i{
+    position: absolute;
+    top: 50px;
+    left: 780px;
+}
+#Chair i{
+    position: absolute;
+    top: 50px;
+    left: 1195px;
+}
+#GPU h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 180px;
+}
+#GPU p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 105px;
+    font-weight: bold;
+}
+#CPU h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 595px;
+}
+#CPU p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 505px;
+    font-weight: bold;
+}
+#RAM h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 985px;
+}
+#RAM p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 865px;
+    font-weight: bold;
+}
+#Display h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 1310px;
+}
+#Display p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 1270px;
+    font-weight: bold;
+}
+#Keyboard h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 140px;
+}
+#Keyboard p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 105px;
+    font-weight: bold;
+}
+#Mouse h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 595px;
+}
+#Mouse p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 470px;
+    font-weight: bold;
+}
+#Headset h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 945px;
+}
+#Headset p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 920px;
+    font-weight: bold;
+}
+#Chair h3{
+    position: absolute;
+    font-size: 35px;
+    color: #BCC6C9;
+    top: 35px;
+    left: 1310px;
+}
+#Chair p{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    top: 80px;
+    left: 1270px;
+    font-weight: bold;
+}
+
+.cleaner{
+    clear: both;
+}
+
+#location-bg{
+    position: relative;
+    text-align: center;
+}
+#Location{
+    height: 550px;
+}
+#location-photo{
+    height: 550px;
+    background-image: url("images/boeograd_resized.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    filter: brightness(0.1);
+    background-color: transparent;
+    opacity: 80%;
+}
+#location-name{
+    position:absolute;
+    top: 0;
+    left: 580px;
+    color: #fff;
+    font-size: 50px;
+}
+#location-name h2{
+    font-size: 50px;
+    padding-left: 263px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+#crownloc {
+    position: absolute;
+    color: #8c52ff;
+    font-size: 30px;
+    top: 64px;
+    left: 220px;
+}
+#location-flex{
+    position: absolute;
+    top: 100px;
+    left: 220px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.gradovi{
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.gradovi h5{
+    padding-top: 10px;
+}
+
+.gradovi a{
+    color: #fff;
+    text-decoration: none;
+}
+.gradovi a:hover{
+    color: #8c52ff;
+}
+.gradovi img{
+    transition: 1s;
+    width: 265px;
+    border-radius: 20px;
+    border-style: none;
+}
+.gradovi img:hover{
+    width: 240px;
+}
+.gradovi span{
+    color: #BCC6C9;
+    font-size: 20px;
+}
+#gallery{
+    position: relative;
+    height:960px;
+    background-color: #221936;
+    text-align: center;
+}
+#gallery-name{
+    position:absolute;
+    top: 0;
+    left: 580px;
+    color: #fff;
+    font-size: 50px;
+}
+#gallery-name h2{
+    font-size: 50px;
+    padding-left: 263px;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+#crowngallery {
+    position: absolute;
+    color: #8c52ff;
+    font-size: 30px;
+    top: 64px;
+    left: 220px;
+}
+#gallery-flex{
+    position: absolute;
+    top: 150px;
+    left: 270px;
+    display: flex;
+    justify-content: space-between 30px;
+}
+.gallery-photos img{
+    border-style: solid;
+    border-color: #191227;
+    border-radius: 15px;
+    transition: 1s;
+}
+#gallery-flex > .gallery-photos{
+    background-color: #221936;
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    
+}
+.gallery-photos img:hover{
+    width: 300px;
+}
+#contact{
+    background-image: url(https://playground.rs/wp-content/uploads/2023/08/criminal-hacking-computer-system-WCL2ZRK-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    opacity: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 55px;
+}
+#contact-block{
+    background-color: #221936;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 35px;
+    height: 80%;
+    width: 1200px;
+    border-radius: 30px;
+    border: #8c52ff solid 2px;
+}
+#contact-left{
+        position: relative;
+        /* background-color: aliceblue; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        width: 500px;
+        height: 80%;
+        text-align: center;
+        color: #fff;
+}
+#contact-right{
+        /* background-color: yellow; */
+        display: flex;
+        align-items: stretch;
+        justify-content: flex-end;
+        width: 55%;
+        height: 80%;
+}
+#contact-left h3{
+    position: absolute;
+    font-size: 50px;
+    padding: 60px;
+    top: -15px;
+    left: 85px;
+    color: #8c52ff;
+}
+#contact-left p{
+    position: absolute;
+    font-size: 25px;
+    padding: 60px;
+    top: 55px;
+}
+#contact-form{
+    background-color: #191227;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 30px 20px;
+    width: 100%;
+    border-radius: 15px;
+}
+#name-lastname, #email, #phone, #message{
+    background-color: #fff;
+    height: 50px;
+    width: 95%;
+    border-radius: 9px;
+    font-size: 16px;
+    text-indent: 25px;
+    font-family: content_font;
+}
+input:invalid{
+    border:1px solid red;
+}
+#email-phone{
+    width: 95%;
+    display: flex;
+    gap: 12px;
+}
+#message{
+    height: 50%;
+    resize: none;
+}
+#button{
+    border: none;
+    background-color: #8c52ff;
+    padding: 8px 20px;
+    width: 40%;
+    font-family: content_font;
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.4s;
+    border-radius: 30px;
+}
+#footer{
+    position: relative;
+    height: 200px;
+    background-color: #191227;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+#logo-footer{
+    width:10%;
+	height:100px;
+	margin-right:10px;
+	float:left;
+    margin-top: 25px;
+}    
+
+#logo-footer img {
+    width: 100%;
+    height: 150px;
+    margin-left: 150px;
+}
+#menu-footer{
+    position: absolute;
+    left: 400px;
+    height: 100px;
+    width: 1000px;
+    top: 50px;
+
+}
+#soc-footer{
+    position: absolute;
+    left: 1400px;
+    height: 100px;
+    width: 400px;
+    top: 50px;
+    font-size: 30px;
+}
+#soc-footer i{
+    padding-left: 53px;
+    margin-top: 35px;
+}
+
+#soc-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+#soc-footer h2{
+    font-size: 26px;
+    text-align: center;
+    color: #8c52ff;
+}
+#menu-footer h2{
+    font-size: 26px;
+    text-align: center;
+    color: #fff;
+}
+#menu-footer ul li{
+    display: inline;
+    margin-top: 10px;
+    font-size:17px;
+	margin-left:70px;
+	text-transform:uppercase;	
+    padding-bottom:30px;
+	width:15%;
+    color: #fff;
+}
+#menu-footer ul {
+	margin-top:40px;
+    color: #fff;
+}
+#menu-footer a{
+    text-decoration: none;
+    color: #8c52ff;
+    font-weight: bold;
+}
+#menu-footer p{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+#menu-footer a:hover{
+    color: #BCC6C9;
+}
+#bg-equipment{
+    height: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)) , url(images/backgroundoprema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+}
+#crown-equipment{
+    position: absolute;
+    color: #8c52ff;
+    font-size: 30px;
+    top: 400px;
+    left: 300px;
+}
+#main-equipment-left h3{
+    position: absolute;
+    top: 402px;
+    left:345px;
+    color: #fff;
+    font-size: 30px;
+}
+#main-equipment-left h1{
+    position: absolute;
+    top: 450px;
+    left:300px;
+    color: #fff;
+    font-size: 55px;
+}
+#main-equipment-left p{
+    position: absolute;
+    top: 550px;
+    left:300px;
+    font-size: 20px;
+    width: 500px;
+    color: #AAAAAA;
+    font-size: 18px;
+    line-height: 1.4em;
+    text-align: left;
+}
+.main-equipment-right1{
+    position: relative;
+}
+#TKL {
+    position: absolute;
+    top: -900px;
+    left: 870px;
+    width: 324px;
+    height: 340.5px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-color: #191227;
+    border-width: 1px;
+    border-style: solid;
+}
+#TKL-Text{
+    position: absolute;
+    text-align: center;
+    top: -550px;
+    left: 935px;
+    color: #fff;
+}
+#Superlight {
+    position: absolute;
+    top: -870px;
+    left: 1250px;
+    width: 324px;
+    height: 340.5px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-color: #191227;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#AsusTheta {
+    position: absolute;
+    top: -500px;
+    left: 870px;
+    width: 324px;
+    height: 340.5px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-color: #191227;
+    border-width: 1px;
+    border-style: solid;
+}
+#Razer {
+    position: absolute;
+    top: -470px;
+    left: 1250px;
+    width: 324px;
+    height: 340.5px;
+    object-fit: cover;
+    border-radius: 20px;
+    border-color: #191227;
+    border-width: 1px;
+    border-style: solid;
+}
+#Superlight-Text{
+    position: absolute;
+    text-align: center;
+    top: -515px;
+    left: 1310px;
+    color: #fff;
+}
+#Theta-Text{
+    position: absolute;
+    text-align: center;
+    top: -150px;
+    left: 965px;
+    color: #fff;
+}
+#Razer-Text{
+    position: absolute;
+    text-align: center;
+    top: -120px;
+    left: 1337px;
+    color: #fff;
+}
+#bg-location{
+    height: 2200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)) , url(images/bglocation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+}
+#crown-location{
+    position: absolute;
+    color: #8c52ff;
+    font-size: 30px;
+    top: 300px;
+    left: 890px;
+}
+#main-location h3{
+    position: absolute;
+    top: 300px;
+    left:930px;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+#main-location h1{
+    position: absolute;
+    top: 360px;
+    left:845px;
+    color: #fff;
+    font-size: 55px;
+}
+.main-location-right{
+    position: relative;
+}
+#mapa-kosovska{
+    position: absolute;
+    left: 445px;
+    top: -1800px;
+}
+.main-location-right h2{
+    position: absolute;
+    top: -1780px;
+    left: 1095px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+#kosovska-loc{
+    position: absolute;
+    top: -1700px;
+    left: 1045px;
+    color: #fff;
+}
+#kosovska-phone{
+    position: absolute;
+    top: -1650px;
+    left: 1045px;
+    color: #fff;
+}
+#kosovska-time{
+    position: absolute;
+    top: -1600px;
+    left: 1045px;
+    color: #fff;
+}
+#kos-loc-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -1700px;
+    left: 1015px;
+}
+#kos-phone-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -1650px;
+    left: 1015px;
+}
+#kos-time-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -1600px;
+    left: 1015px;
+}
+#mapa-gimnazijska{
+    position: absolute;
+    left: 985px;
+    top: -1400px;
+}
+#gimnazijska-loc{
+    position: absolute;
+    top: -1300px;
+    left: 545px;
+    color: #fff;
+}
+#gimnazijska-phone{
+    position: absolute;
+    top: -1250px;
+    left: 545px;
+    color: #fff;
+}
+#gimnazijska-time{
+    position: absolute;
+    top: -1200px;
+    left: 545px;
+    color: #fff;
+}
+#gim-loc-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -1300px;
+    left: 515px;
+}
+#gim-phone-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -1250px;
+    left: 515px;
+}
+#gim-time-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -1200px;
+    left: 515px;
+}
+#zrenjanin-loc{
+    position: absolute;
+    top: -1370px;
+    left: 595px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+#mapa-vodna{
+    position: absolute;
+    left: 445px;
+    top: -1000px;
+}
+#vodna-loc{
+    position: absolute;
+    top: -900px;
+    left: 1045px;
+    color: #fff;
+}
+#vodna-phone{
+    position: absolute;
+    top: -850px;
+    left: 1045px;
+    color: #fff;
+}
+#vodna-time1{
+    position: absolute;
+    top: -800px;
+    left: 1045px;
+    color: #fff;
+}
+#vodna-time2{
+    position: absolute;
+    top: -750px;
+    left: 1045px;
+    color: #fff;
+}
+#vodna-time3{
+    position: absolute;
+    top: -700px;
+    left: 1045px;
+    color: #fff;
+}
+#vodna-loc-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -900px;
+    left: 1015px;
+}
+#vodna-phone-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -850px;
+    left: 1015px;
+}
+#vodna-time-icon1{
+    position: absolute;
+    color: #8c52ff;
+    top: -800px;
+    left: 1015px;
+}
+#vodna-time-icon2{
+    position: absolute;
+    color: #8c52ff;
+    top: -750px;
+    left: 1015px;
+}
+#vodna-time-icon3{
+    position: absolute;
+    color: #8c52ff;
+    top: -700px;
+    left: 1015px;
+}
+#sremska-mitrovica-loc{
+    position: absolute;
+    top: -985px;
+    left: 1040px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+#mapa-matije-gubca{
+    position: absolute;
+    left: 985px;
+    top: -580px;
+}
+#gubca-loc{
+    position: absolute;
+    top: -480px;
+    left: 545px;
+    color: #fff;
+}
+#gubca-phone{
+    position: absolute;
+    top: -430px;
+    left: 545px;
+    color: #fff;
+}
+#gubca-time1{
+    position: absolute;
+    top: -380px;
+    left: 545px;
+    color: #fff;
+}
+#gubca-time2{
+    position: absolute;
+    top: -330px;
+    left: 545px;
+    color: #fff;
+}
+#gubca-loc-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -480px;
+    left: 515px;
+}
+#gubca-phone-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: -430px;
+    left: 515px;
+}
+#gubca-time-icon1{
+    position: absolute;
+    color: #8c52ff;
+    top: -380px;
+    left: 515px;
+}
+#gubca-time-icon2{
+    position: absolute;
+    color: #8c52ff;
+    top: -330px;
+    left: 515px;
+}
+#subotica-loc{
+    position: absolute;
+    top: -560px;
+    left: 595px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+}
+#crown-galerija{
+    position: absolute;
+    color: #8c52ff;
+    font-size: 30px;
+    top: 290px;
+    left: 800px;
+}
+#galerija-main h1{
+    position: absolute;
+    top: 270px;
+    left: 845px;
+    color: #fff;
+    font-size: 55px;
+}
+#bg-galerija{
+    height: 1900px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0, 0, 0, 0.80)) , url(images/galerijapozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+}
+#galerija-flex{
+    position: absolute;
+    top: 400px;
+    left: 230px;
+    display: flex;
+    justify-content: space-between 30px;
+}
+.galerija-photos img{
+    border-style: solid;
+    border-color: #191227;
+    object-fit:  cover;
+    border-radius: 15px;
+    transition: 1s;
+}
+#galerija-flex > .galerija-photos{
+    /* background-color: #221936; */
+    height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 60px;
+    font-size: 40px;
+    
+}
+.galerija-photos img:hover{
+    width: 300px;
+}
+#bg-oautoru{
+    height: 900px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)) , url(images/bgoautoru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: transparent;
+    position: relative;
+}
+#crown-oautoru{
+    position: absolute;
+    color: #8c52ff;
+    font-size: 30px;
+    top: 290px;
+    left: 800px;
+}
+#main-oautoru h1{
+    position: absolute;
+    top: 270px;
+    left: 845px;
+    color: #fff;
+    font-size: 55px;
+}
+#main-oautoru img{
+    position: absolute;
+    border-style: solid;
+    border-color: #191227;
+    object-fit:  cover;
+    border-radius: 15px;
+    transition: 1s;
+    top: 430px;
+    left: 350px;
+}
+#main-oautoru h2{
+    position: absolute;
+    top: 470px;
+    left: 845px;
+    color: #fff;
+    font-size: 30px;
+}
+#user{
+    position: absolute;
+    color: #8c52ff;
+    top: 550px;
+    left: 770px;
+}
+#imeuser{
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    color: #fff;
+}
+#rodjendan{
+    position: absolute;
+    color: #8c52ff;
+    top: 600px;
+    left: 770px;
+}
+#datum{
+    position: absolute;
+    top: 600px;
+    left: 800px;
+    color: #fff;
+}
+#city{
+    position: absolute;
+    color: #8c52ff;
+    top: 650px;
+    left: 770px;
+}
+#town{
+    position: absolute;
+    top: 650px;
+    left: 800px;
+    color: #fff;
+}
+#school{
+    position: absolute;
+    color: #8c52ff;
+    top: 700px;
+    left: 770px;
+}
+#skola{
+    position: absolute;
+    top: 700px;
+    left: 800px;
+    color: #fff;
+}
+#study-icon{
+    position: absolute;
+    color: #8c52ff;
+    top: 750px;
+    left: 770px;
+}
+#study{
+    position: absolute;
+    top: 750px;
+    left: 800px;
+    color: #fff;
+}
+#hobby{
+    position: absolute;
+    color: #8c52ff;
+    top: 800px;
+    left: 770px;
+}
+#hobi{
+    position: absolute;
+    top: 800px;
+    left: 800px;
+    color: #fff;
+}
